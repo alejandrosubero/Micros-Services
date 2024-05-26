@@ -26,3 +26,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+feign:
+  clients:
+    msvc-student:
+      name: msvc-student
+      url: localhost:8998/api/student
